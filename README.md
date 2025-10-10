@@ -4,6 +4,15 @@ Este proyecto proporciona un entorno de desarrollo completo con **DevContainer**
 
 ---
 
+## 👨‍💻 Autor
+
+**Isaías Fernández Lozano**
+
+- 🐙 GitHub: [@isaiasfl](https://github.com/isaiasfl)
+- 📧 Contacto: [GitHub Profile](https://github.com/isaiasfl)
+
+---
+
 ## 📋 Tabla de Contenidos
 
 - [¿Qué es un DevContainer?](#-qué-es-un-devcontainer)
@@ -286,15 +295,6 @@ sudo chown -R node:node /workspaces/DevContainer_hlanz
 - 🎨 [Tailwind CSS v4 Docs](https://tailwindcss.com/)
 - 📖 [MDN Web Docs - JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)
 - 🔧 [ESLint Configuration](https://eslint.org/docs/latest/)
-
----
-
-## 👨‍💻 Autor
-
-**Isaías Fernández Lozano**
-
-- 🐙 GitHub: [@isaiasfl](https://github.com/isaiasfl)
-- 📧 Contacto: [GitHub Profile](https://github.com/isaiasfl)
 
 ---
 
