@@ -1,0 +1,56 @@
+{
+  "name": "JavaScript + Vite",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-vscode.vscode-json",
+        "bradlc.vscode-tailwindcss",
+        "ritwickdey.liveserver",
+        "ms-ceintl.vscode-language-pack-es",
+        "dsznajder.es7-react-redux-snippets",
+        "usernamehw.errorlens",
+        "abecbrasilovskiy.html-css-support",
+        "christian-kohler.path-intellisense",
+        "formulahendry.auto-rename-tag",
+        "coenraads.bracket-pair-colorizer-2",
+        "eamodio.gitlens",
+        "ms-vscode.vscode-typescript-next",
+        "humao.rest-client"
+      ],
+      "settings": {
+        "extensions.autoUpdate": false,
+        "extensions.autoCheckUpdates": false,
+        "telemetry.enableTelemetry": false,
+        "workbench.enableExperiments": false,
+        "update.mode": "none",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+          "source.fixAll.eslint": true
+        },
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 1000
+      }
+    }
+  },
+  "forwardPorts": [5173],
+  "portsAttributes": {
+    "5173": {
+      "label": "Vite Dev Server",
+      "onAutoForward": "notify"
+    }
+  },
+  "appPort": ["5175:5173"],
+  "postCreateCommand": "sudo chown -R node:node /workspaces/DevContainer_hlanz && npm install",
+  "remoteUser": "node",
+  "containerUser": "root",
+  "updateRemoteUserUID": true,
+  "workspaceFolder": "/workspaces/DevContainer_hlanz"
+}
