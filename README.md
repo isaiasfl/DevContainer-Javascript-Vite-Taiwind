@@ -9,7 +9,7 @@ Este proyecto proporciona un entorno de desarrollo completo con **DevContainer**
 **Isaías Fernández Lozano**
 
 - 🐙 GitHub: [@isaiasfl](https://github.com/isaiasfl)
-- 📧 Contacto: [email](mailto:ifernandez@ieshlanz.es)
+- 📧 Contacto: [ifernandez@ieshlanz.es](mailto:ifernandez@ieshlanz.es)
 
 ---
 
