@@ -48,9 +48,9 @@
     }
   },
   "appPort": ["5175:5173"],
-  "postCreateCommand": "sudo chown -R node:node /workspaces/DevContainer_hlanz && npm install",
+  "postCreateCommand": "sudo chown -R node:node /workspaces/DevContainer-Javascript-Vite-Taiwind && npm install",
   "remoteUser": "node",
   "containerUser": "root",
   "updateRemoteUserUID": true,
-  "workspaceFolder": "/workspaces/DevContainer_hlanz"
+  "workspaceFolder": "/workspaces/DevContainer-Javascript-Vite-Taiwind"
 }
