@@ -98,3 +98,5 @@ temp/
 # package-lock.json  # Si usas yarn o pnpm
 # yarn.lock          # Si usas npm o pnpm
 # pnpm-lock.yaml     # Si usas npm o yarn
+
+.kilocode/

@@ -2,6 +2,43 @@
 
 Esta guía te explica cómo levantar el Dev Container sin necesidad de usar Visual Studio Code.
 
+---
+
+## 👨‍💻 Autor
+
+**Isaías Fernández Lozano**
+
+- 🐙 GitHub: [@isaiasfl](https://github.com/isaiasfl)
+- 📧 Contacto: [ifernandez@ieshlanz.es](mailto:ifernandez@ieshlanz.es)
+
+---
+
+## 📋 Tabla de Contenidos
+
+- [🐳 Usar el Dev Container con Docker Compose](#-usar-el-dev-container-con-docker-compose)
+  - [👨‍💻 Autor](#-autor)
+  - [📋 Tabla de Contenidos](#-tabla-de-contenidos)
+  - [📋 Requisitos Previos](#-requisitos-previos)
+  - [🚀 Inicio Rápido](#-inicio-rápido)
+    - [Opción 1: Usando el script automatizado](#opción-1-usando-el-script-automatizado)
+    - [Opción 2: Manualmente](#opción-2-manualmente)
+  - [📂 Comandos Útiles](#-comandos-útiles)
+    - [Acceder al contenedor](#acceder-al-contenedor)
+    - [Iniciar el servidor de desarrollo](#iniciar-el-servidor-de-desarrollo)
+    - [Ver logs del contenedor](#ver-logs-del-contenedor)
+    - [Detener el contenedor](#detener-el-contenedor)
+    - [Reconstruir el contenedor](#reconstruir-el-contenedor)
+  - [🌐 Acceder a la Aplicación](#-acceder-a-la-aplicación)
+  - [📝 Estructura de Archivos](#-estructura-de-archivos)
+  - [🔧 Personalización](#-personalización)
+  - [🐛 Solución de Problemas](#-solución-de-problemas)
+    - [El contenedor no se inicia](#el-contenedor-no-se-inicia)
+    - [Los cambios no se reflejan](#los-cambios-no-se-reflejan)
+    - [No puedo acceder a la aplicación](#no-puedo-acceder-a-la-aplicación)
+  - [📚 Más Información](#-más-información)
+
+---
+
 ## 📋 Requisitos Previos
 
 1. **Docker Desktop** instalado y corriendo

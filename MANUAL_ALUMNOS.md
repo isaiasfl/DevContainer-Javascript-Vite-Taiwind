@@ -1,5 +1,47 @@
 # 🚀 Manual de Uso del Dev Container para Alumnos
 
+---
+
+## 👨‍💻 Autor
+
+**Isaías Fernández Lozano**
+
+- 🐙 GitHub: [@isaiasfl](https://github.com/isaiasfl)
+- 📧 Contacto: [ifernandez@ieshlanz.es](mailto:ifernandez@ieshlanz.es)
+
+---
+
+## 📋 Tabla de Contenidos
+
+- [🚀 Manual de Uso del Dev Container para Alumnos](#-manual-de-uso-del-dev-container-para-alumnos)
+  - [👨‍💻 Autor](#-autor)
+  - [📋 Tabla de Contenidos](#-tabla-de-contenidos)
+  - [📋 ¿Qué es esto?](#-qué-es-esto)
+  - [🔧 Requisitos Previos](#-requisitos-previos)
+  - [🚀 Paso a Paso para Empezar](#-paso-a-paso-para-empezar)
+    - [Paso 1: Descargar el Proyecto](#paso-1-descargar-el-proyecto)
+    - [Paso 2: Abrir el Proyecto en Dev Container](#paso-2-abrir-el-proyecto-en-dev-container)
+    - [Paso 3: Esperar la Configuración](#paso-3-esperar-la-configuración)
+    - [Paso 4: Empezar a Programar](#paso-4-empezar-a-programar)
+  - [📁 Estructura del Proyecto](#-estructura-del-proyecto)
+  - [🎯 Comandos Importantes](#-comandos-importantes)
+  - [💡 Flujo de Trabajo Diario](#-flujo-de-trabajo-diario)
+    - [Cuando empiezas a programar:](#cuando-empiezas-a-programar)
+    - [Cuando terminas de programar:](#cuando-terminas-de-programar)
+    - [Cuando quieres seguir trabajando:](#cuando-quieres-seguir-trabajando)
+  - [🔄 ¿Qué pasa detrás de cámaras?](#-qué-pasa-detrás-de-cámaras)
+  - [✅ Ventajas de Trabajar Así](#-ventajas-de-trabajar-así)
+  - [🐛 Problemas Comunes](#-problemas-comunes)
+    - ["No me aparece el mensaje de Reopen in Container"](#no-me-aparece-el-mensaje-de-reopen-in-container)
+    - ["El contenedor tarda mucho en construir"](#el-contenedor-tarda-mucho-en-construir)
+    - ["El servidor no se inicia"](#el-servidor-no-se-inicia)
+    - ["No puedo acceder a http://localhost:5175"](#no-puedo-acceder-a-httplocalhost5175)
+  - [📤 Subir tu trabajo a GitHub](#-subir-tu-trabajo-a-github)
+  - [🎉 ¡Felicidades!](#-felicidades)
+  - [📚 Recursos Adicionales](#-recursos-adicionales)
+
+---
+
 ## 📋 ¿Qué es esto?
 
 Este es un entorno de desarrollo preconfigurado para aprender JavaScript con Vite. No necesitas instalar nada en tu ordenador, solo tener Docker y VS Code.

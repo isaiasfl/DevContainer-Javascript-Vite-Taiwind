@@ -85,8 +85,8 @@ Antes de comenzar, necesitas tener instalado:
 ### Paso 1: Clonar el Proyecto
 
 ```bash
-git clone https://github.com/isaiasfl/DevContainer_hlanz.git
-cd DevContainer_hlanz
+git clone <URL_DEL_REPOSITORIO>
+cd DevContainer-JavaScript-Vite-Tailwind
 ```
 
 ### Paso 2: Abrir en VS Code
